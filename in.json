@@ -1,0 +1,282 @@
+[{
+        "tieuDe": "Hãy chọn câu đúng.",
+        "inPut": "Liệt kê các tính năng của SASS ?",
+        "maLoaiBaiTap": "SINGLE",
+        "dapAn": [{
+                "cauTraLoi": "Variables , Nesting , Modules , Mixins & Extend , Numeric Operators , Array SASS",
+                "luaChon": true
+            },
+            {
+                "cauTraLoi": "Variables , Modules , Mixins & Extend , Numeric Operators , Array SASS",
+                "luaChon": false
+            },
+            {
+                "cauTraLoi": "Variables , Nesting , Modules , Mixins & Extend , Array SASS",
+                "luaChon": false
+            },
+            {
+                "cauTraLoi": "Variables , Nesting , Modules , Mixins & Extend , Function , Array SASS",
+                "luaChon": false
+            }
+        ]
+    },
+    {
+        "tieuDe": "Hãy chọn câu đúng.",
+        "inPut": "Để tạo biến trong SASS ta bắt đầu bằng cú pháp ?",
+        "maLoaiBaiTap": "SINGLE",
+        "dapAn": [{
+                "cauTraLoi": "@",
+                "luaChon": false
+            },
+            {
+                "cauTraLoi": "*",
+                "luaChon": false
+            },
+            {
+                "cauTraLoi": "#",
+                "luaChon": false
+            },
+            {
+                "cauTraLoi": "$",
+                "luaChon": true
+            }
+        ]
+    },
+    {
+        "tieuDe": "Hãy chọn câu đúng.",
+        "inPut": "Selector Nesting trong SASS đem lại lợi ích gì?",
+        "maLoaiBaiTap": "SINGLE",
+        "dapAn": [{
+                "cauTraLoi": "Giúp kết quả css ngắn gọn và dễ đọc",
+                "luaChon": false
+            },
+            {
+                "cauTraLoi": "Tránh những khai báo rườm rà, dài dòng",
+                "luaChon": false
+            },
+            {
+                "cauTraLoi": "Quản Lý và bảo trì Code dễ dàng",
+                "luaChon": false
+            },
+            {
+                "cauTraLoi": "Cả 3 câu đều đúng",
+                "luaChon": true
+            }
+        ]
+    },
+    {
+        "tieuDe": "Hãy chọn câu đúng.",
+        "inPut": "Điều nào sau đây đúng về @import trong SASS?",
+        "maLoaiBaiTap": "SINGLE",
+        "dapAn": [{
+                "cauTraLoi": "Dùng lại file SASS đó tại nhiều nơi mà không cần code",
+                "luaChon": false
+            },
+            {
+                "cauTraLoi": "Thứ tự import rất quan trọng, những khai báo của file sau sẽ ghi đè lên khai báo của các file trước",
+                "luaChon": false
+            },
+            {
+                "cauTraLoi": "Nên tạo 1 file quản lý tất cả các file đã @import",
+                "luaChon": false
+            },
+            {
+                "cauTraLoi": "Cả 3 câu đều đúng",
+                "luaChon": true
+            }
+        ]
+    },
+    {
+        "tieuDe": "Hãy chọn câu đúng.",
+        "inPut": "Công dụng của &combinator trong SASS là gì?",
+        "maLoaiBaiTap": "SINGLE",
+        "dapAn": [{
+                "cauTraLoi": "Ký hiệu & có nghĩa là phần tử cha. Để khai báo phần tử con cấp 1 sử dụng ký hiệu & ở phía trước",
+                "luaChon": false
+            },
+            {
+                "cauTraLoi": "Để khai báo các pseudo selector dùng ký hiệu &:selector_class, ví dụ &:hover, &:link,...",
+                "luaChon": false
+            },
+            {
+                "cauTraLoi": "Ký hiệu phần tử cha & được dùng như là một thành phần tên của phần tử con. Ví dụ phần tử cha là footer thì ký hiệu &-small tự động sinh ra phần tử footer-small",
+                "luaChon": false
+            },
+            {
+                "cauTraLoi": "Tất cả các đáp án trên đều đúng",
+                "luaChon": true
+            }
+        ]
+    },
+    {
+        "tieuDe": "Hãy chọn câu đúng.",
+        "inPut": "Biến trong SASS có thể chứa kiểu dữ liệu nào?",
+        "maLoaiBaiTap": "SINGLE",
+        "dapAn": [{
+                "cauTraLoi": "Numbers , Strings , Colors , Booleans , Nulls , Undefined , List , Maps",
+                "luaChon": false
+            },
+            {
+                "cauTraLoi": "Numbers , Strings , Colors , Booleans , Nulls , List , Maps",
+                "luaChon": true
+            },
+            {
+                "cauTraLoi": "Numbers , Strings , Colors , Booleans , Nulls , Undefined",
+                "luaChon": false
+            },
+            {
+                "cauTraLoi": "Numbers , Strings , Booleans , Nulls , List , Maps",
+                "luaChon": false
+            }
+        ]
+    },
+    {
+        "tieuDe": "Hãy chọn câu đúng. (có thể 1 hoặc nhiều câu đúng)",
+        "inPut": "Trong SASS @extend có tác dụng gì ?",
+        "outPut": "",
+        "maLoaiBaiTap": "multiple_choice",
+        "cauTraLoi": [{
+                "ma": "1",
+                "noiDung": "Kế thừa thuộc tính CSS của selector đã tạo và sử dụng cho selector hiện tại"
+            },
+            {
+                "ma": "2",
+                "noiDung": "Có thể sử dụng cho một hoặc nhiều selector cùng lúc"
+            },
+            {
+                "ma": "3",
+                "noiDung": "Chỉ sử dụng cho 1 selector"
+            },
+            {
+                "ma": "4",
+                "noiDung": "Có thể thêm thuộc tính CSS mới cho selector khi sử dụng @extend"
+            }
+        ],
+        "dapAn": [
+            "1",
+            "2",
+            "4"
+        ]
+    },
+    {
+        "tieuDe": "Hãy chọn câu đúng. (có thể 1 hoặc nhiều câu đúng)",
+        "inPut": "Trong SASS &commat;mixin l&agrave; g&igrave; &quest;",
+        "outPut": "",
+        "maLoaiBaiTap": "multiple_choice",
+        "cauTraLoi": [{
+                "ma": "1",
+                "noiDung": "@mixin sử dụng được biến "
+            },
+            {
+                "ma": "2",
+                "noiDung": "@mixin giúp tạo các thuộc tính CSS và tái sử dụng được tại nhiều selector"
+            },
+            {
+                "ma": "3",
+                "noiDung": "@mixin giống như function và truyền được tham số"
+            },
+            {
+                "ma": "4",
+                "noiDung": "@mixin không thể sử dụng khi không có tham số"
+            }
+        ],
+        "dapAn": [
+            "1",
+            "2",
+            "3"
+        ]
+    },
+    {
+        "tieuDe": "Hãy chọn câu đúng. (có thể 1 hoặc nhiều câu đúng)",
+        "inPut": "&#x1AF;u &dstrok;i&#x1EC3;m c&#x1EE7;a CSS preprocessors &lpar;SASS or LESS&rpar;",
+        "outPut": "",
+        "maLoaiBaiTap": "multiple_choice",
+        "cauTraLoi": [{
+                "ma": "1",
+                "noiDung": "Code ‎CSS được tái sử dụng tốt hơn.‎"
+            },
+            {
+                "ma": "2",
+                "noiDung": "Dễ dàng viết bộ chọn(selector) lồng nhau như thẻ html.‎"
+            },
+            {
+                "ma": "3",
+                "noiDung": "Các biến giúp dễ thay đổi.‎"
+            },
+            {
+                "ma": "4",
+                "noiDung": "‎Mixin để tạo nhanh code CSS có thuộc tính giống nhau‎"
+            },
+            {
+                "ma": "5",
+                "noiDung": "Sass có các tính năng như loop (for, while), function có thể làm cho cấu hình dễ dàng hơn và ít dài dòng hơn.‎"
+            },
+            {
+                "ma": "6",
+                "noiDung": "‎Chia code của bạn thành nhiều file. Các file CSS cũng có thể được chia ra nhưng làm như vậy sẽ yêu cầu yêu cầu HTTP để tải xuống từng file CSS.‎"
+            },
+            {
+                "ma": "7",
+                "noiDung": "Xử lý với Javascript một cách dễ dàng"
+            },
+            {
+                "ma": "8",
+                "noiDung": "Sử dụng được Javascript trực tiếp vô CSS"
+            }
+        ],
+        "dapAn": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "tieuDe": "Hãy chọn câu đúng. (có thể 1 hoặc nhiều câu đúng)",
+        "inPut": "&Dstrok;&#x1EC3; bi&ecirc;n d&#x1ECB;ch SASS sang CSS c&oacute; th&#x1EC3; d&ugrave;ng c&ocirc;ng c&#x1EE5; n&agrave;o&quest;",
+        "outPut": "",
+        "maLoaiBaiTap": "multiple_choice",
+        "cauTraLoi": [{
+                "ma": "1",
+                "noiDung": "Extension của VS Code"
+            },
+            {
+                "ma": "2",
+                "noiDung": "Không cần biên dịch"
+            },
+            {
+                "ma": "3",
+                "noiDung": "Koala"
+            },
+            {
+                "ma": "4",
+                "noiDung": "JS Framework (React, Angular...)"
+            },
+            {
+                "ma": "5",
+                "noiDung": "NodeJS"
+            },
+            {
+                "ma": "6",
+                "noiDung": "Gulp"
+            },
+            {
+                "ma": "7",
+                "noiDung": "Bootstrap"
+            },
+            {
+                "ma": "8",
+                "noiDung": "LESS"
+            }
+        ],
+        "dapAn": [
+            "1",
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
+    }
+]

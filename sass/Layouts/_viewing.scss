@@ -1,0 +1,24 @@
+.viewing {
+    padding: $pd-3 + 2 0;
+    .viewing__content {
+        width: 90%;
+        margin: auto;
+        h2 {
+            font-size: 1.25rem;
+        }
+    }
+    @include reponsive("etra-large-etra") {
+        .card .card-body {
+            padding: 1.1rem;
+        }
+        .card .card-title {
+            font-size: $fs-1;
+            margin-bottom: 0.5rem;
+        }
+    }
+    @include reponsive("etra-large") {
+        .card .card-text {
+            margin: 0;
+        }
+    }
+}

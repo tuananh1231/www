@@ -1,0 +1,55 @@
+.course {
+    margin: $mg-1 0;
+    .courses__content {
+        .row {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        width: 90%;
+        margin: 0 auto;
+        .courses__left {
+            background: $color-gray-1;
+            padding: 0 2rem;
+            display: flex;
+            align-items: center;
+            h2 {
+                @include styleText($color-black-0, $fs-3 + 1, $fw-0)
+            }
+        }
+        #myTab {
+            margin: $mg-1;
+            .nav-link {
+                @include styleText($color-black-0, $fs-0, $fw-0);
+                &:hover {
+                    border: 1px solid transparent;
+                    @include styleText($color-blue-0, $fs-0, $fw-0);
+                }
+                &.active {
+                    border: none;
+                    border-bottom: 5px solid $color-blue-0;
+                }
+            }
+        }
+    }
+    @include reponsive("etra-large-etra") {
+        .card .card-body {
+            padding: 1.1rem;
+        }
+        .card .card-title {
+            font-size: $fs-1;
+            margin-bottom: 0.5rem;
+        }
+    }
+    @include reponsive("etra-large") {
+        .card .card-text {
+            margin: 0;
+        }
+    }
+    @include reponsive("medium") {
+        .courses__content {
+            .courses__left {
+                padding: $pd-1;
+            }
+        }
+    }
+}
